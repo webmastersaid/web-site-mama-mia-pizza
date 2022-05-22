@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приложение Mama Mia Pizza</title>
+    <meta name="keywords" content="pizza, food, fastfood, delivery">
+    <meta name="description" content="Android-приложение Mama Mia Pizza. Демонстрационная версия приложения Mama Mia Pizza для заказа еды.">
+    <meta property="og:title" content="Приложение Mama Mia Pizza" />
+    <meta property="og:description" content="Android-приложение Mama Mia Pizza. Демонстрационная версия приложения Mama Mia Pizza для заказа еды." />
+    <meta property="og:image" content="favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mama-mia-pizza.netlify.app/" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <main>
+        <header class="navbar">
+            <a href="/"><img src="favicon.png" alt="logotip"><span>Mama Mia Pizza</span></a>
+            <nav class="navbar-nav">
+                <ul id="nav-menu" class="nav">
+                    <li><a href="download/MamaMiaPizza.apk">Скачать</a></li>
+                </ul>
+                <button id="btn-menu" type="menu"><img src="img/list.svg" alt="menu"></button>
+            </nav>
+        </header>
+        <div id="main" class="container">
+            <div class="row">
+                <img src="img/android-app.png" alt="Android App" style="max-width: 420px;">
+                <div class="about">
+                    <h1>Android-приложение <br> Mama Mia Pizza</h1>
+                    <div id="download" class="about-text">
+                        <p>
+                            Демонстрационная версия приложения Mama Mia Pizza для заказа еды.
+                        </p>
+                    </div>
+                    <div class="about-link">
+                        <a class="btn-download" href="download/MamaMiaPizza.apk">
+                            Скачать ↓ <small><i>~15 Мб</i></small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="screenshots" class="about">
+                <h2>Скриншоты</h2>
+            </div>
+            <div class="gallery">
+                <div id="img-view-1" class="img-detail img-slide-1">
+                    <div class="img-view-bg"></div>
+                    <span class="view-detail"></span>
+                </div>
+                <div id="img-view-2" class="img-detail img-slide-2">
+                    <div class="img-view-bg"></div>
+                    <span class="view-detail"></span>
+                </div>
+                <div id="img-view-3" class="img-detail img-slide-3">
+                    <div class="img-view-bg"></div>
+                    <span class="view-detail"></span>
+                </div>
+                <div id="img-view-4" class="img-detail img-slide-4">
+                    <div class="img-view-bg"></div>
+                    <span class="view-detail"></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn-up">
+            <a class="btn" href="#"><img src="img/chevron-double-up.svg" alt="↑"></a>
+        </div>
+        <footer>
+            <a href="https://findsaid.github.io/" target="_blank">© findsaid 2022</a>
+        </footer>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-close">
+            <button class="btn" id="modal-close" type="button"><img src="img/x-lg.svg" alt="close"></button>
+        </div>
+        <div id="modal-view" class="modal-view">
+            <div id="modal-detail-1" class="modal-detail img-slide-1"></div>
+            <div id="modal-detail-2" class="modal-detail img-slide-2"></div>
+            <div id="modal-detail-3" class="modal-detail img-slide-3"></div>
+            <div id="modal-detail-4" class="modal-detail img-slide-4"></div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
